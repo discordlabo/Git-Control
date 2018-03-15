@@ -17,7 +17,7 @@ if 1:
         print('i Loaded ../variables/token.json')
 
         client = discord.Client()
-        bot = commands.Bot(command_prefix = "?")
+        bot = commands.Bot(command_prefix = "git:")
         print('i client,bot inited')
 
         @bot.event
